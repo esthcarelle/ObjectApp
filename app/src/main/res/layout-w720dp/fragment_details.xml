@@ -17,6 +17,7 @@
             android:layout_height="0dp"
             app:cardCornerRadius="16dp"
             app:cardElevation="@dimen/_4dp"
+            android:id="@+id/item_imageView"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -35,7 +36,7 @@
         <ScrollView
             android:layout_width="0dp"
             android:layout_height="0dp"
-            app:layout_constraintStart_toEndOf="@id/item_image"
+            app:layout_constraintStart_toEndOf="@id/item_imageView"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -107,6 +108,7 @@
                     android:layout_height="wrap_content"
                     android:text='@{"Case Size: " + item.data.caseSize}'
                     android:textSize="@dimen/_20sp"
+                    android:visibility="@{item.data.caseSize != null ? View.VISIBLE : View.GONE}"
                     android:paddingBottom="@dimen/_4dp" />
 
                 <TextView
