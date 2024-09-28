@@ -7,7 +7,7 @@ This project is a Phone Display application developed for showcasing various pho
 
 1. **Clone the Repository**: 
    ```bash
-   git clone [<YOUR_GITHUB_REPOSITORY_LINK>](https://github.com/esthcarelle/ObjectApp)
+   git clone (https://github.com/esthcarelle/ObjectApp)
    ```
 
 2. **Open the Project**: 
