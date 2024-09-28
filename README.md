@@ -1,5 +1,5 @@
 
-# Phone Display App
+# Objects App
 
 This project is a Phone Display application developed for showcasing various phone objects. The app follows the MVVM architecture pattern and provides a responsive UI suitable for different screen sizes, including tablets and landscape orientations.
 
