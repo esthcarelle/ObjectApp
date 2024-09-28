@@ -1,0 +1,129 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <import type="android.view.View" />
+        <!-- Bind the item object -->
+        <variable
+            name="item"
+            type="eu.ampersand.objectapp.model.PhoneObjectItem" />
+
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/_16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_8dp"
+            android:background="@android:color/white"
+            android:elevation="@dimen/_4dp"
+            android:orientation="vertical"
+            android:padding="@dimen/_16dp">
+
+            <ImageView
+                android:id="@+id/item_image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="@dimen/_16dp"
+                android:src="@drawable/avatar_6"
+                android:scaleType="centerCrop" />
+
+            <!-- Item Name -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingBottom="@dimen/_16dp"
+                android:text="@{item.name}"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_24sp"
+                android:textStyle="bold" />
+
+            <!-- Separator Line -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1dp"
+                android:background="?android:attr/listDivider"
+                android:visibility="@{item.data != null ? View.VISIBLE : View.GONE}" />
+
+            <!-- Color (if available) -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='@{"Color: " + item.data.color}'
+                android:textSize="@dimen/_18sp"
+                android:visibility="@{item.data.color != null ? View.VISIBLE : View.GONE}" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='@{"Capacity: "+item.data.capacity}'
+                android:textSize="@dimen/_18sp"
+                android:visibility="@{item.data.capacity != null ? View.VISIBLE : View.GONE}" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='@{"Capacity GB: "+item.data.capacityGB}'
+                android:textSize="@dimen/_18sp"
+                android:visibility="@{item.data.capacityGB != null ? View.VISIBLE : View.GONE}" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='@{"Screen Size: "+item.data.screenSize}'
+                android:textSize="@dimen/_18sp"
+                android:visibility="@{item.data.screenSize != null ? View.VISIBLE : View.GONE}" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='@{"Strap Colour: "+item.data.strapColour}'
+                android:textSize="@dimen/_18sp"
+                android:visibility="@{item.data.strapColour != null ? View.VISIBLE : View.GONE}" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='@{"Generation: "+item.data.generation}'
+                android:textSize="18sp"
+                android:visibility="@{item.data.generation != null ? View.VISIBLE : View.GONE}" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='@{"Hard Disk Size: "+item.data.hardDiskSize}'
+                android:textSize="@dimen/_18sp"
+                android:visibility="@{item.data.hardDiskSize != null ? View.VISIBLE : View.GONE}" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='@{"Generation: "+item.data.generationG}'
+                android:textSize="@dimen/_18sp"
+                android:visibility="@{item.data.generationG != null ? View.VISIBLE : View.GONE}" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='@{"Price: "+item.data.priceP}'
+                android:textSize="@dimen/_18sp"
+                android:visibility="@{item.data.priceP != null ? View.VISIBLE : View.GONE}" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='@{"Description: "+item.data.descriptionD}'
+                android:textSize="@dimen/_18sp"
+                android:visibility="@{item.data.descriptionD != null ? View.VISIBLE : View.GONE}" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</layout>

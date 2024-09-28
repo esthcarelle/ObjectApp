@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_transform">
+
+    <fragment
+        android:id="@+id/nav_transform"
+        android:name="eu.ampersand.objectapp.ui.transform.ListView"
+        android:label="@string/menu_transform"
+        tools:layout="@layout/fragment_list_view" >
+
+        <action
+            android:id="@+id/action_nav_transform_to_detailsFragment"
+            app:destination="@id/detailsFragment" >
+
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="eu.ampersand.objectapp.ui.details.DetailsView"
+        android:label="Object details"
+        tools:layout="@layout/fragment_details" >
+        <argument
+            android:name="selectedItem"
+            app:argType="eu.ampersand.objectapp.model.PhoneObjectItem" />
+
+    </fragment>
+</navigation>
