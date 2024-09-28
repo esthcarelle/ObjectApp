@@ -14,12 +14,13 @@
         <!-- Left Pane for Image -->
         <androidx.cardview.widget.CardView
             android:layout_width="0dp"
-            android:layout_height="400dp"
+            android:layout_height="0dp"
             app:cardCornerRadius="16dp"
             app:cardElevation="@dimen/_4dp"
             android:id="@+id/item_imageView"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintWidth_percent="0.4">
 
             <ImageView
