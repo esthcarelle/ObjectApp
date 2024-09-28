@@ -7,7 +7,7 @@ This project is a Phone Display application developed for showcasing various pho
 
 1. **Clone the Repository**: 
    ```bash
-   git clone (https://github.com/esthcarelle/ObjectApp)
+   git clone <https://github.com/esthcarelle/ObjectApp>
    ```
 
 2. **Open the Project**: 
@@ -28,6 +28,7 @@ This project is a Phone Display application developed for showcasing various pho
 - **Flow**: For handling data streams in a reactive way.
 - **XML Layouts**: For designing the UI components.
 - **Placeholders Drawables**: Used to enhance the visual appearance of the app.
+- **Git Flow**
 
 ## Design Decisions and Assumptions
 
@@ -39,11 +40,11 @@ This project is a Phone Display application developed for showcasing various pho
 
 ## Screenshots
 
-![Screenshot_20240928_142639](https://github.com/user-attachments/assets/79d7d1ae-d023-4dd1-9cd7-0ca50018eeac)
 ![Screenshot_20240928_142624](https://github.com/user-attachments/assets/b197ecb0-cabb-4bb8-b800-1e73cb1af4d2)
 ![Screenshot_20240928_142607](https://github.com/user-attachments/assets/ed50d8da-ac73-4f09-863f-ade2b2f22352)
 ![Screenshot_20240928_142601](https://github.com/user-attachments/assets/0c5f369a-3266-4c65-b3e7-494a72d0172f)
-![Screenshot_20240928_142541](https://github.com/user-attachments/assets/1bbc9a50-da6a-4fb8-bc8a-86411eccc1b9)
+![Screenshot_20240928_142931](https://github.com/user-attachments/assets/93db57bf-0e51-43a5-ae69-074468db3db0)
+
 
 
 
