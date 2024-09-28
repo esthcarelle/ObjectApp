@@ -43,7 +43,9 @@ This project is a Phone Display application developed for showcasing various pho
 ![Screenshot_20240928_142607](https://github.com/user-attachments/assets/ed50d8da-ac73-4f09-863f-ade2b2f22352)
 ![Screenshot_20240928_142601](https://github.com/user-attachments/assets/0c5f369a-3266-4c65-b3e7-494a72d0172f)
 ![Screenshot_20240928_145449](https://github.com/user-attachments/assets/c62bae87-f244-4b48-9626-d51cc0025dda)
-![Screenshot_20240928_145449](https://github.com/user-attachments/assets/d228cbd4-d703-4618-b53a-ff0a6eaa1710)
+![Screenshot_20240928_145434](https://github.com/user-attachments/assets/e90f1074-9b28-4a43-986b-c68487b8ad03)
+![Screenshot_20240928_145840](https://github.com/user-attachments/assets/17faed79-5fb7-4bda-ae63-2ccc7bc1a6d7)
+![Screenshot_20240928_145830](https://github.com/user-attachments/assets/b75501f5-c92c-4c4b-a2e9-d8edb159226e)
 
 
 ## Contributing
